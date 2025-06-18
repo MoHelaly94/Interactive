@@ -1,0 +1,9 @@
+body {text-align: center; font-family: Arial, sans-serif; background-color: #ffffff; color: #333;}
+h1 {color: #125064;}
+div {margin: 20px 0; padding: 10px; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb;}
+nav a {color: #000000; text-decoration: none; padding: 10px; margin-right : 10px;}
+nav a:hover {color: #125064; text-decoration: underline;}
+button {background-color: #125064; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;}
+button:hover {background-color: #0d3a4c;}
+div img {position:absolute; top: 20px; left: 10px; height: 50px; border-top: 2px solid rgb(181, 222, 228); border-radius: 5px;}
+h3 {color: #37b7e2; margin-top: 20px;}
