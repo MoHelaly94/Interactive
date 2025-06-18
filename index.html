@@ -52,7 +52,11 @@
     </main>
     <section>
         <form style="text-align: center;" action="https://formsubmit.co/Mahmod_elhelaly@hotmail.co.uk" method="POST">
-            <h2>Leave a Comment</h2>
+            <comment><h2>Leave a Comment</h2></comment>
+
+            <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Your comment here..."></textarea>
+
+            <h3 class="personal"></h3>Personal Data:</h3>
             <!-- person’s name -->
             <input type="text" name="name" placeholder="Your Name" required />
       
@@ -65,8 +69,7 @@
             <input type="hidden" name="_subject" value="new enquiry from landing page">
             <input type="hidden" name="_template" value="table"> <!-- pretty table view -->
 
-                <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Your comment here..."></textarea>
-                <button type="submit">Submit</button>
+            <button type="submit">Submit</button>
         </form>
     <hr>
 
