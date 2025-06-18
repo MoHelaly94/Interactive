@@ -1,5 +1,5 @@
 body {text-align: center; font-family: Arial, sans-serif; background-color: #ffffff; color: #333;}
-h1 {color: #125064;}
+h1 {color: #125064; padding-top: 15px;}
 div {margin: 20px 0; padding: 10px; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb;}
 nav a {color: #000000; text-decoration: none; padding: 10px; margin-right : 10px;}
 nav a:hover {color: #125064; text-decoration: underline;}
