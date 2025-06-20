@@ -7,13 +7,13 @@ button {background-color: #125064; color: white; border: none; padding: 10px 20p
 div img {padding-top: none; boreder-top: 2px solid rgb(181, 222, 228); border-radius: 5px }
 button:hover {background-color: #0d3a4c;}
 h3 {color: #37b7e2; margin-top: 20px;}
-nav {
+nav, div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; }
 /* Responsive styles for mobile */
 @media (max-width: 600px) {
-  nav {
+  nav, div {
     flex-direction: column;
     align-items: flex-start;}
