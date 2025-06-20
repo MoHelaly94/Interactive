@@ -20,8 +20,13 @@ nav {
 .path, .diagnostics, .case {display: flex;
   align-items: flex-start;
   gap: 16px;}
-  .path img, .diagnostics img, .case img {
-  max-width: 150px;
+  .path img, ,  {max-width: 150px;
+  max-height: 100px;
+  flex-shrink: 0;}
+  .diagnostics img {max-width: 150px;
+  max-height: 100px;
+  flex-shrink: 0;}
+ .case img {max-width: 150px;
   max-height: 100px;
   flex-shrink: 0;
 }
@@ -33,5 +38,6 @@ nav {
     align-items: center;}  }
     text-align: center;
   }
-  .path img, .diagnostics img, .case img {
-    max-width: 80vw;}
+  .path img {max-width: 80vw;}
+  .diagnostics img {max-width: 80vw;}
+  .case img {max-width: 80vw;}
