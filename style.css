@@ -20,7 +20,7 @@ nav {
 .path, .diagnostics, .case {display: flex;
   align-items: flex-start;
   gap: 16px;}
-  .path, .diagnostics, .case img {
+  .path img, .diagnostics img, .case img {
   max-width: 150px;
   max-height: 100px;
   flex-shrink: 0;
@@ -33,5 +33,5 @@ nav {
     align-items: center;}  }
     text-align: center;
   }
-  .path, .diagnostics, .case img {
+  .path img, .diagnostics img, .case img {
     max-width: 80vw;
