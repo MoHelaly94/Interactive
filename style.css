@@ -30,7 +30,7 @@ nav {
 @media (max-width: 600px) {
   .path, .diagnostics, .case {
     flex-direction: column;
-    align-items: center;
+    align-items: center;}  }
     text-align: center;
   }
   .path, .diagnostics, .case img {
