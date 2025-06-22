@@ -1,5 +1,5 @@
-body {text-align: center; font-family: Arial, sans-serif; background-color: #ffffff; color: #333; width: 100%;
-  height: 100vh; margin: 0;}
+body {text-align: center; font-family: Arial, sans-serif; background-color: #ffffff; color: #333; max-width: 100%;
+  overflow-x: hidden; margin: 0;}
 h1 {color: #125064; padding-top: 10px;}
 div {margin: 20px 0; padding: 10px; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb;}
 nav a {color: #000000; text-decoration: none; padding: 10px; width: 100%; font-weight: bold; margin-bottom: 8px;}
@@ -17,10 +17,10 @@ nav {
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
-    align-items: flex-start;}
+    align-items: center;}
 
 /* Responsive: Stack image above text on small screens */
-@media (max-width: 150px) {
+@media (max-width: 480px) {
   .path, .diagnostics, .case {
     flex-direction: column;
     align-items: center;}  }
