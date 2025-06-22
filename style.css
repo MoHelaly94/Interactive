@@ -12,9 +12,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; width 100%; width: 60vw;
-  max-width: 500px;
-  min-width: 300px; }
+  align-items: center; }
 /* Responsive styles for mobile */
 @media (max-width: 600px) {
   nav {
