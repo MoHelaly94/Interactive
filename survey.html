@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>RT Land Learning Survey</title>
+    <link rel="stylesheet" href="survey.css">
+  <body>
+    <h1 id="title">RT Land Learning Survey</h1>
+    <p id="description">Thank you for taking the time to help us develop the platfrom</p>
+
+    <form name="survey-form" id="survey-form" action="https://formsubmit.co/Mahmod_elhelaly@hotmail.co.uk" method="POST">
+      <fieldset>
+      <label id="name-label">Name <input type="text" id="name" name="name" placeholder="Enter you name" required></label>
+      </fieldset>
+
+      <fieldset>
+      <label id="email-label">Email <input type="email" id="email" name="email" placeholder="Enter your email" required></label>
+      </fieldset>
+
+      <fieldset>
+      <label id="number-label">Phone Number <input type="text" id="number" name="number" placeholder="Enter your number" minlength="10" maxlength="15" pattern="[0-9]{10, 14}"></label>
+      </fieldset>
+
+      <fieldset>
+      <label for="dropdown">Which option best describe your current role?
+      <select id="dropdown" name="dropdown">
+        <option>(select one)</option>
+        <option>Student</option>
+        <option>Entry to practice</option>
+        <option>Experienced</option>
+        <option>Expert</option>
+      </select>
+      </label>
+      </fieldset>
+
+      <fieldset>
+      <legend class="pad">Would you recommend <strong>RT Land Learning</strong> to a friend?</legend>
+      <label for="definitely"><input type="radio" name="recommed-me" id="definitely" value="definitely" class="inline">Definitely</label>
+      
+      <label for="maybe"> <input type="radio" name="recommed-me" id="maybe" value="maybe" class="inline">Maybe</label>
+
+      <label for="not-sure"> <input type="radio" name="recommed-me" id="not-sure" value="not-sure" class="inline">Not sure</label>
+      </fieldset>
+
+      <fieldset>
+        <legend class="pad">What would you like to see improved?</legend>
+        <label for="cases"><input type="checkbox" id="cases" name="cases" value="cases" class="inline"> Cases</label>
+        <label for="track"><input type="checkbox" id="track" name="track" value="tracking-progress" class="inline"> Quizzes and tracking progess</label>
+
+        <label for="diagnostic"><input type="checkbox" id="diagnostic" name="diagnostic" value="diagnostic-tools" class="inline"> Diagnostic tools </label>
+
+        <label class="pad" for="suggestions"> Any suggestions or Comments?<textarea id="suggestions" name="suggestions" rows="3" cols="30" placeholder="I suggest ..."></textarea>
+        </label>
+      </fieldset>
+      <!-- nicer subject & table template (optional) -->
+            <input type="hidden" name="_subject" value="new enquiry from landing page">
+            <input type="hidden" name="_template" value="table"> <!-- pretty table view -->
+      <input type="submit" id="submit"></input>
+
+
+      </form>   
+  </body>
+</html>
