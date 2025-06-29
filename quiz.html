@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quizzes for respiratory therapists to test their knowledge and skills.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+      background-color: whitesmoke;
+      text-align: center;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px;
+      width: 250px;
+    }
+
+    button{
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+  </style>
+</head>
+<body>
+  <img src="header_logo.png" alt="RT Logo">
+  <h1>Test Your Knowledge</h1>
+  <p>Please enter your details to start</p>
+
+  <input type="text" id="user-name" placeholder="Your Full Name" required><br>
+  <input type="email" id="user-email" placeholder="Your Email" required><br>
+  <button onclick="startQuiz()">Start Quiz</button>
+  <div data-tf-live="01JYVECVGF119X71VXX2752NRQ"></div>
+  <script function startQuiz() {
+      const name = document.getElementById("user-name").value;
+      const email = document.getElementById("user-email").value;
+
+      if (!name || !email) {
+        alert("Please enter your name and email.");
+        return;
+      }
+    src="//embed.typeform.com/next/embed.js"></script>
+
+</body>
+</html>
