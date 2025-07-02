@@ -21,8 +21,8 @@ nav {
 
 /* Responsive: Stack image above text on small screens */
 @media (max-width: 480px) {
-  #path, #diagnostics, #case {
-    flex-direction: column;
+  #guide, #path, #diagnostics, #case {
+    flex-flow: column wrap;
     align-items: center;}
     text-align: center;
   } }
