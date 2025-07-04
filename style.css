@@ -9,14 +9,14 @@ h1 {color: #125064; padding-top: 15px;}
 p {padding-top: 15px;}
 div {margin: 20px 0; padding: 20px 0; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb; width: 100%;}
 h2 {margin-bottom: 15px;}
-section {width: 100%; margin: 20px 0 15px 0; padding: 20px 0 15px 0;}
+section {width: 100%; margin: 20px 0 10px 0; padding: 20px 0 10px 0;}
 footer {width: 100%; padding: 20px 0; }
 nav a {color: #000000; text-decoration: none; padding: 10px; width: 100%; font-weight: bold; margin-bottom: 8px;}
 nav a:hover {color: #125064; text-decoration: underline;}
 h3 a { background-color: #125064; color: white; border-radius: 5px; text-decoration: none; border: 2px solid #125064}
 h3 a:hover {background-color: #0d3a4c;}
 button {background-color: #125064; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-left: 10px;}
-div img {padding-top: none; border-radius: 5px }
+div img {padding-top: none; border-radius: 5px; filter: blur(1px) grayscale(70%) brightness(100%) sepia(10%);= }
 button:hover {background-color: #0d3a4c;}
 h3 {color: #37b7e2; margin-top: 20px;}
 nav {
