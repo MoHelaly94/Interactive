@@ -7,7 +7,7 @@ body {text-align: center; font-family: Arial, sans-serif; background-color: #fff
   overflow-x: hidden; margin: 0;}
 h1 {color: #125064; padding-top: 15px;}
 p {padding-top: 15px;}
-div {margin: 20px 0; padding: 20px 0; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb; width: 100%;}
+div {margin: 20px 0; padding: 20px 0; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb; width: 100%; box-shadow: 0 0 3px 3px #e9f5fb;}
 h2 {margin-bottom: 15px;}
 section {width: 100%; margin: 10px 0 10px 0; padding: 20px 0 10px 0;}
 footer {width: 100%; padding: 10px 5px 20px 5px; }
