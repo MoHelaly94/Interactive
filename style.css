@@ -2,10 +2,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {text-align: center; font-family: Arial, sans-serif; background-color: #ffffff; color: #333; width: 100%;
   overflow-x: hidden; margin: 0;}
 h1 {color: #125064; padding-top: 15px;}
+.slogan {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.intro {
+  font-weight: bold;
+}
 p {padding-top: 15px;}
 div {margin: 20px 0; padding: 20px 0; border: 2px solid rgb(181, 222, 228) ; border-radius: 5px; background-color: #e9f5fb; width: 100%; box-shadow: 0 0 3px 3px #e9f5fb;}
 h2 {margin-bottom: 15px;}
@@ -28,7 +36,7 @@ nav {
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
-    align-items: center;}
+    align-items: center;} }
 
 /* Responsive: Stack image above text on small screens */
 @media (max-width: 480px) {
